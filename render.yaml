@@ -1,0 +1,13 @@
+# Render Blueprint. In Render: New + -> Blueprint -> pick this repo.
+services:
+  - type: web
+    name: order-extractor
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false        # paste the secret in the Render dashboard
+      - key: MODEL
+        value: gpt-5-mini
