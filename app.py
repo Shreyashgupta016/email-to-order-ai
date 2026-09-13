@@ -19,7 +19,7 @@ st.set_page_config(page_title="Email-to-Order AI", page_icon="📦", layout="wid
 st.title("📦 Email-to-Order Extractor")
 st.caption(
     "Customer orders arrive as messy emails and PDFs. This reads them, matches "
-    "each item to your article numbers, and produces a clean order for the ERP — "
+    "each item to your article numbers, and produces a clean order for the ERP - "
     "no manual typing."
 )
 
