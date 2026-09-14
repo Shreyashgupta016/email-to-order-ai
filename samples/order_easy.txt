@@ -1,0 +1,14 @@
+From: einkauf@schmidt-handel.de
+Subject: Bestellung
+
+Hello,
+
+Please deliver:
+- 10 boxes M8 bolts
+- 5 boxes M10 bolts
+- 20 rolls brown packing tape
+
+PO 88123. Deliver to our Hamburg warehouse.
+
+Best regards,
+Klaus Schmidt
