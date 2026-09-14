@@ -1,5 +1,7 @@
 # 📦 Email-to-Order AI
 
+**Live demo:** https://www.loom.com/share/59e3f13150794924a7bd5daa6d44f5f2
+
 Turns messy customer order emails and PDFs into clean, ERP-ready orders.
 Built with the OpenAI API (`openai==0.28`, model `gpt-5-mini`).
 
